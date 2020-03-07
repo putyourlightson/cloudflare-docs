@@ -20,7 +20,7 @@
     "url": "git+https://mattstein@github.com/workingconcept/cloudflare-docs.git"
   },
   "author": "Working Concept",
-  "license": "proprietary",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/workingconcept/cloudflare-docs/issues"
   },
