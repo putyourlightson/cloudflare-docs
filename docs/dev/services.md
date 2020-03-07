@@ -1,6 +1,10 @@
 # Services
 
-## Cloudflare Service
+The plugin exposes services for working with Cloudflare’s API and simple URL-based purging rules specific to the Craft install.
+
+## API Service
+
+The API service is a small wrapper for Cloudflare’s REST API.
 
 ### `getZones()`
 
@@ -15,6 +19,8 @@ Purges the entire zone cache for whichever zone you've specified in the plugin�
 Purges the supplied array of absolute URLs. These URLs must use the same domain name as the zone or it won’t work.
 
 ## RulesService
+
+The rules service deals with custom purge rules you can configure based on the URL of an element being updated.
 
 ### `getRulesForTable()`
 
