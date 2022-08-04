@@ -9,7 +9,7 @@ module.exports = {
   theme: "craftdocs",
   themeConfig: {
     repo: "workingconcept/cloudflare-craft-plugin",
-    docsBranch: "master",
+    docsBranch: "main",
     docsDir: "docs",
     editLinks: true,
     searchMaxSuggestions: 10,
