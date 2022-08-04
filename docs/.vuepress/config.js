@@ -8,7 +8,7 @@ module.exports = {
   dest: "public",
   theme: "craftdocs",
   themeConfig: {
-    repo: "workingconcept/cloudflare-craft-plugin",
+    repo: "workingconcept/cloudflare-docs",
     docsBranch: "main",
     docsDir: "docs",
     editLinks: true,
